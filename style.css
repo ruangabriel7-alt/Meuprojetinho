@@ -7,3 +7,23 @@ p{
     border-color: black;
     width: 300px;
 }
+a{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 15px;
+}
+p2{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    width: 300px;
+}
+main{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    width: 300px;
+}
+
+
