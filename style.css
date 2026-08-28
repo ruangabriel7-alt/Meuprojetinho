@@ -1,29 +1,54 @@
 *{
+    margin: 0;
+    padding: 0%;
     box-sizing: border-box;
 }
-p{
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-    width: 300px;
-}
-a{
-    border-width: 5px;
-    border-color: black;
-    border-style: solid;
-    margin-bottom: 15px;
-}
-p2{
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
-    width: 300px;
-}
 main{
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
     width: 300px;
+    border: 2px solid black;
+    margin: 20px auto;
 }
-
-
+.caixa-foto{
+    width: 200px;
+    height: 200px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+ a{
+    display: inline-block;
+    border: 2px solid black;
+    border-top: none;
+    padding: 6px 12px;
+}
+.campo{
+    border: 1px solid black;
+    padding: 3px;
+}
+.paragrafo1{
+    border: 1px solid black;
+    padding: 3px;
+    margin-top: 20px;
+}
+.paragrafo2{
+    border: 1px solid black;
+    padding: 2px;
+    margin-top: 20px;
+}
+.bloco,
+.bloco2,
+.bloco3{
+    display: inline-block;
+    width: 75px;
+    height: 90px;
+    border: 2px solid black;
+}
+.bloco3{
+    margin-left: 12px;
+}
+footer{
+    display: block;
+    border: 2px solid black;
+    margin: 10px 20px 30px 40px;
+    padding: 4px;
+}
